@@ -59,6 +59,7 @@ class _WhatsappSenderState extends State<WhatsappSender> {
                         focusedBorder: InputBorder.none,
                         hintText: "Enter number with Country Code",
                         hintStyle: TextStyle(
+                          color: Colors.white,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.normal,
                           fontSize: 25,
@@ -69,7 +70,7 @@ class _WhatsappSenderState extends State<WhatsappSender> {
                       },
                     ),
                     MaterialButton(
-                      color: Colors.deepOrange,
+                      color: Colors.teal[400],
                       height: 60,
                       minWidth: 150,
                       onPressed: () async {
@@ -78,7 +79,10 @@ class _WhatsappSenderState extends State<WhatsappSender> {
                           throw 'Could not launch';
                         }
                       },
-                      child: const Text('Send Message'),
+                      child: const Text(
+                        'Send Message',
+                        style: TextStyle(color: Colors.white, fontSize: 25),
+                      ),
                     ),
                     const SizedBox(height: 10),
                   ]),
