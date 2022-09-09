@@ -1,16 +1,7 @@
 # whatsapp_sender
 
-A new Flutter project.
+A simple app to send Whatsapp message to unsaved contacts.
 
-## Getting Started
+# Screenshots
+![dwhjsw](https://user-images.githubusercontent.com/43927153/189320041-40600fb5-27ce-40b7-ae46-dd9334aa443f.jpg)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
